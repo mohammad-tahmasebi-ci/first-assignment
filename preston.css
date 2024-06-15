@@ -1,0 +1,248 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    margin:0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+      display: block;
+      width: 100%;
+      height: 100px;
+  }
+  
+  h2 {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: left;
+      color: gold;
+  }
+  
+  #attraction-heading {
+      float: left;
+      margin-left: 20px;
+      letter-spacing: 1px;
+      font-size: 18px;
+  }
+  
+  #attraction-list {
+      list-style-type: none;
+  }
+  
+  #attraction-heading, #attraction-list {
+      line-height: 75px;
+  }
+  
+  nav {
+      overflow: hidden;
+      float:right;
+      position: fixed;  
+      margin-left: 300px;
+      top: 0;
+      font-size: 13px;
+  }
+  
+  #attraction-list li {
+      float: left;  
+      margin-right: 20px;
+  }
+  
+  #attraction-list a {
+      text-decoration: none;
+      color: orange;
+  }
+  
+  #attraction-list a:hover {
+      color: green;
+      text-decoration: underline;
+  }
+  
+  .home-page-pict-section {
+      position: relative;
+      text-align: center;
+      color: red;
+  }
+  
+  .home-page-image {
+      width: 95%;
+      height: 500px;
+      background-image: url('https://eu-assets.simpleview-europe.com/lancashire2017/imageresizer/?image=%2Fdmsimgs%2FAvenham%20Park%20-%20Attractions%20-%20Park%20%283%29_684332997.jpg&action=ProductDetailProFullWidth'),url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/41/45/b6/avenham-and-miller-parks.jpg?w=1200&h=-1&s=1');
+      background-position: left, right;
+      background-repeat: no-repeat, no-repeat;
+      background-size: 50% 100%, 50% 100%;
+      animation-name: home-page-zoom;
+      animation-duration: 5s;
+      animation-fill-mode: forwards;	
+  }
+  
+  @keyframes home-page-zoom {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  
+  #home-page-pict-text, #home-page-pict-text h2{
+    color: gold;
+  }
+  
+  #home-page-pict-text {
+      font-size: 100%;
+      letter-spacing: 2px;
+      width: 300px;
+      height: 200px;
+      padding-top: 20px;
+      padding-left: 10px;
+      bottom: 250px;
+      right: 800px;
+      position: absolute;
+  }
+  
+  #visit-preston {
+      height: 900px;
+  }
+  
+  #greetings {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 300%;
+    color:gold;
+  }
+  
+  .attractions {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 5px;
+  }
+  
+  .attractions-items {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 5px;
+      width: 500px;
+  }
+  
+  .image-with-text {
+      display: grid;
+      grid-template-columns: 1fr 1fr; 
+      align-items: end;
+      grid-auto-rows: 135px;
+      margin-top: 50px;
+      width: 500px;
+      line-height: auto;
+  }
+  
+  img {
+      max-width: 100%;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  .item-text {
+      display: table-cell;
+      width: 100%;
+      padding-left: 0px;
+      vertical-align: top;
+      text-align: right;
+  }
+  
+  .item-text h3:hover {
+      animation-name: item-text-zoom;
+      animation-duration: 5s;
+      animation-fill-mode: forwards;
+  }
+  
+  .item-text p:hover {
+      color: orange;
+  }
+  
+  .item-img {
+      display: table-cell;
+      width: 100%;
+      vertical-align: top;
+      text-align: left;
+      padding-left: 5px;
+  }
+  
+  .item-img:hover {
+      opacity: 0.6;
+  }
+  
+  @keyframes item-text-zoom {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(0.9);
+    }
+  }
+  
+  footer {	
+      background: cyan;
+      color: green;
+      position: fixed;
+      width: 100%;
+      height: 30px;
+      bottom: 0px;
+      left: 0px;
+  }
+  
+  .social-networks {
+      text-align: center;
+  }
+  
+  .social-networks li {
+      display: inline;
+  }
+  
+  .social-networks i {
+      font-size: 120%;
+      margin: 1%;
+      padding: 4%;
+  }
+  
+  @media screen and (max-width: 767px) {
+      
+      header {
+          display: none;
+      }
+      
+      #greetings {
+          display: none;
+      }
+      
+      .attractions-items {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      justify-content: space-between;
+      font-size: 5px;
+      margin-top: 2px;
+      width: 500px;
+      }
+      
+      .image-with-text {
+      display: grid;
+      grid-template-columns: 1fr; 
+      align-items: flex-start;
+      grid-auto-rows: 135px;
+      margin-top: 200px;
+      width: 100px;
+      line-height: auto;
+      }
+  }
