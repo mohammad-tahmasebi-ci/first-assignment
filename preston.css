@@ -137,7 +137,7 @@ html {
   
   .image-with-text {
       display: grid;
-      grid-template-columns: 1fr 1fr; 
+      grid-template-columns: auto auto auto; 
       align-items: end;
       grid-auto-rows: 135px;
       margin-top: 30px;
