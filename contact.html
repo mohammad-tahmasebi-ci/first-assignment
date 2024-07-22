@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- declare style sheet name & title, as well as the required link for the footer icons -->     
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css">    
+    <title>Contact</title>
+</head>
+<body>
+<!-- define content to be included in the header, i.e. logo, menu bar -->      
+    <header class="header-container">
+        <nav class="navbar">
+            <div class="logo">
+                <h2>Historic City Of Preston</h2>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>				
+            </ul>
+        </nav>
+    </header> 
+<!-- input form is created by using div items in conjunction with flexbox enabling them to be stacked -->    
+<!-- also a background image, with transparency effect, is deployed -->
+    <div class="contact-bg-image">
+        <form id="user-form" method="get">
+            <div class="user-input">
+                <label for="fname">First Name</label>
+                <input type="text" name="firstname" id="fname" required>
+            </div>
+            <div class="user-input">
+                <label for="lname">Last Name</label>
+                <input type="text" name="lastname" id="lname" required>
+            </div>
+            <div class="user-input">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="user-input">
+                <label for="msg">Message</label>
+                <textarea id="msg" name="message" rows="10"></textarea>
+            </div>
+			<button type="submit" onclilck="href='#openmodal'">Submit</button>
+           <button type="reset">Reset</button>  
+        </form>
+    </div>
+<!-- footer bar is configures such that it includes popular social media links -->      
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
