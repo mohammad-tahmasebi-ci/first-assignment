@@ -14,6 +14,11 @@ Fontawsome
 
 Clone the project, ensuring the folder structure is replicated.  Once one page is loaded, in the browser, the rest will become accessible via the menu bar.
 
+# Test
+
+Each page was loaded in a browser and provided links, as well as pseudo features, were tested to ensure functionality. 
+Zooming feature applied to images on the home and gallery pages is in effect on the first load of the page, as well as subsequent refreshes.
+
 # Original Idea
 
 I am on a full stack development course run by the Code Institute.  First part of the course covers HTML, CSS.  This is the first assignment of three demonstrating my understanding of the material presented as this part of the course.  Since I have recently moved to Preston, I took advantage of the opportunity to marry the two ideas: complete the assignment, and get to know the new city I live in.
