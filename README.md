@@ -37,6 +37,7 @@ Certain effects have been incorporated as the mouse hovers over the name, descri
 
 This page has been provided to gather feedback from visitors to attractions to be used for future improvements.
 The background image is from the Corn Exchange building and the martyrs memorial, in front of it, dating back to 1842.  On that year during the workers' strike, against wage cuts, four people were shot and killed.
+Certain effects have been incorporated as the mouse hovers over each input box, textarea, and submit/reset buttons.
 
 ## Fututre Enhancements
 
