@@ -1,220 +1,235 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
+<!-- declare style sheet name & title, as well as the required link for the footer icons -->       
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Preston, a city full of history and adventure.">
-	<meta name="keywords" content="Preston, Ribble Steam Railway, Nature Reserve, Avenham Park, Level Preston, Holiday Park, Harris Museum, Cuerden Valley Park, The River Ribble, The Flower Bowl, The Guild, Lonely People Bar">
-	<meta name="author" content="M Tahmasebi">
-
-	<link rel="stylesheet" href="preston.css" type="text/css">
-	<title>Preston City Attractions</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css">
+    <title>Preston History</title>
 </head>
-
 <body>
-	<header>
-		<h2 id="attraction-heading">List of Attractions</h2>
-		<nav>
-			<ul id="attraction-list">
-				<li><a href="https://www.visitlancashire.com/things-to-do/ribble-steam-railway-and-museum-p20641" target="_blank">Steam Railway</a></li>
-				<li><a href="https://www.visitlancashire.com/things-to-do/brockholes-nature-reserve-p629440" target="_blank">Nature Reserve</a></li>
-				<li><a href="https://www.visitlancashire.com/things-to-do/avenham-and-miller-parks-p19100" target="_blank">Avenham, Miller Park</a></li>				
-				<li><a href="https://www.visitlancashire.com/things-to-do/level-preston-p986230" target="_blank">Level Preston</a></li>
-				<li><a href="https://www.tripadvisor.co.uk/Attraction_Review-g187062-d13565272-Reviews-Preston_Antique_Centre-Preston_Lancashire_England.html" target="_blank">Antique Center</a></li>				
-				<li><a href="https://www.visitlancashire.com/places-to-stay/hall-more-holiday-park-p685850" target="_blank">Holiday Park</a></li>
-				<li><a href="https://www.visitlancashire.com/things-to-do/harris-museum-art-gallery-and-library-p1771" target="_blank">Harris Museum</a></li>				
-				<li><a href="https://www.tripadvisor.co.uk/Attraction_Review-g187062-d4012360-Reviews-Cuerden_Valley_Park-Preston_Lancashire_England.html" target="_blank">Cuerden Valley Park</a></li>				
-				<li><a href="https://www.tripadvisor.co.uk/Attraction_Review-g187062-d10264993-Reviews-The_River_Ribble-Preston_Lancashire_England.html" target="_blank">The River Ribble</a></li>				
-				<li><a href="https://theflowerbowl.uk/" target="_blank">The Flower Bowl</a></li>				
-				<li><a href="https://www.greeneking.co.uk/pubs/lancashire/guild/menu" target="_blank">The Guild</a></li>				
-				<li><a href="https://www.visitpreston.com/article/3944/Lonely-People" target="_blank">Lonely People Bar</a></li>								
-			</ul>
-		</nav>
-	</header>
-
-	<section class="home-page-pict-section">
-		<div class="home-page-image">
-			<div id="home-page-pict-text">
-				<h2>Visit Preston Attractions</h2>
-			</div>
-		</div>
-	</section>
-
-	<section id="visit-preston">
+<!-- define content to be included in the header, i.e. logo, menu bar -->    
+    <header class="header-container">
+        <nav class="navbar">
+            <div class="logo">
+                <h2>Historic City Of Preston</h2>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>				
+            </ul>
+        </nav>
+    </header>
+<!-- iamge to be placed at the top of the home page -->    
+<!-- the image has a zooming out effect on each load/refresh -->     
+	<img src="assets/img/preston-1648.jpg" class="home-page-image" alt="preston-1648">
+    <br>
+<!-- define an article to contain different historical, and some general interest, items  -->      
+    <article id="preston-history">
+		<h3>Brief History Of Preston</h3>
 		<br>
-		<h2 id="greetings">Preston has something for everyong</h2>
-		<div class="attraction-items">
-			<div class="attractions">  
-				<div class="image-with-text">
-					<div class="item-text" id="steam-railway"> 
-						<h3><a href="https://www.visitlancashire.com/things-to-do/ribble-steam-railway-and-museum-p20641" target="_blank">Ribble Steam Railway</a></h3>
-						<p>
-							The Ribble Steam Railway is a standard gauge preserved railway in Lancashire, connecting the story of the north’s industrial railways, charting their rise and fall, offering the chance for generations come together, relax, learn and have fun
-						</p>
-					</div>  
-					<div  class="item-img">
-						<img src="images/steam-train2.jpg" alt="Ribble Steam Railway">
-					</div>
-				</div>
-				<div class="image-with-text">
-					<div class="item-text" id="nature-reserve">
-						<h3><a href="https://www.visitlancashire.com/things-to-do/brockholes-nature-reserve-p629440" target="_blank">Brockholes Nature Reserve</a></h3>
-						<p>
-							Lancashire Wildlife Trust nature reserve has the wide variety of wildlife on offer.  Walk along the River Ribble, explore the ancient woodland, amble around the lakes, spot a huge array of wildlife all year round
-						</p>
-					</div>
-					<div class="item-img">
-						<img src="images/nature-reserve2.jpg" alt="Brockholes Nature Reserve">
-					</div>
-				</div>
-				<div class="image-with-text">
-					<div class="item-text" id="avenham-park">
-						<h3><a href="https://www.visitlancashire.com/things-to-do/avenham-and-miller-parks-p19100" target="_blank">Avenham and Miller Parks</a></h3>
-						<p>
-							Avenham Park is a Grade II listed public park. With a backcloth of the River Ribble, Avenham Park ranks amongst the finest examples of traditional Victorian parkland. Designed and created by Edward Milner during the 1860s
-						</p>
-					</div>
-					<div class="item-img">
-						<img src="images/avenham-park2.jpg" alt="Avenham Park">
-					</div>
-				</div>				
-			</div>
-			<div class="attractions">
-				<div class="image-with-text">
-					<div class="item-text" id="level-preston">
-						<h3><a href="https://www.visitlancashire.com/things-to-do/level-preston-p986230" target="_blank">Level Preston</a></h3>
-						<p>
-							Level is the largest entertainment complex in the city, with ten pin bowling, laser tag and crazy golf, assault course and private karaoke rooms making it a great destination for a family day out or just a night out with your mates
-						</p>
-					</div>
-					<div class="item-img">
-						<img src="images/level-preston2.jpg" alt="Level Preston">
-					</div>
-				</div>
-				<div class="image-with-text">
-					<div class="item-text" id="antique-center">
-						<h3><a href="https://www.tripadvisor.co.uk/Attraction_Review-g187062-d13565272-Reviews-Preston_Antique_Centre-Preston_Lancashire_England.html" target="_blank">Antique Centre</a></h3>
-						<p>
-							One of the biggest Antique and home ware centres in the North West of England, carrying an ever changing eclectic mix of furniture spanning many decades, from the 17th century up to the nostalgic retro era and beyond
-						</p>
-					</div>
-					<div class="item-img">
-						<img src="images/antique-centre2.jpg" alt="Antique Centre">
-					</div>
-				</div>
+<!-- each item is contianed within a section with a corresponding ID for styling purpose -->                
+        <section id="begin">
+            <img src="assets/img/preston-1851.jpg" alt="Preston 1851" id="preston-1851">
+            <h3>The Beginning</h3>
+            <br>
+            <p class="para-text">
+                Preston began as a village. It was called Priest&apos;s tun, which means a priest&apos;s farm or estate. 
+                In the 12th century, it grew into a town, partly because of its position by being on a river, making it cheaper to transport goods by water. Preston was also the first place inland where the river could 
+                be bridged so a great deal of traffic passed through the area.
+                In 1179 it was given a charter. (A charter was a document giving the townspeople certain rights).
+                Preston was too small to have stone walls but it did have stone gates, where tolls could be charged on goods entering the town. By the 12th century, it had a weekly market. 
+                From the 13th century, it also had a fair. In the Middle, Ages fairs were like markets but they were held only once a year for several days.
+                In the Middle Ages, there was a leper hospital just outside Preston. It was dedicated to St Mary Magdalene. About 1260 the Franciscan friars arrived in the town.
+                Preston, for most of its history, was a small town but relative to other market centres in the county it was always of significant economic importance, 
+                being considered the richest borough in the 14th Century.
+                In 1539 Henry VIII closed the friary but most of the people of Preston remained staunch Catholics.
+                Tudor Preston was a flourishing town, with the main industry being textiles. Both linen and wool were made in here.
+                Like all towns at that time, Preston suffered from outbreaks of plague. A particularly severe outbreak occurred in 1631. But each time it struck the population soon recovered.
+            </p>
+        </section>
+        <br>
+        <section id="war">
+            <img src="assets/img/preston-battle-of-1715.jpg" alt="" id="preston-battle">
+            <h3>War</h3>
+            <br>
+            <p class="para-text">
+                In 1642 came the civil war between the king and parliament. The people of Preston steadfastly supported the king. 
+                But in February 1643 parliamentary troops attacked Preston and quickly captured it. The mayor was killed. 
+                However, the royalists recaptured it in March 1643. They did not hold it for long. In April 1643 the royalists 
+                were forced to withdraw from Preston and the surrounding area. The civil war ended in 1646 and the King was captured.
+                In 1688 James II was deposed as king of England and Scotland but in 1715 a Scottish army attempted to put his son, James III back on the throne. The 
+                Scottish army marched into Preston, realizing their position was hopeless the Scots surrendered. The Scots returned in 1745 and they 
+                marched as far as Derby but they then turned back and no battle took place in Preston.
+                Preston was the stage for battles of national importance - in 1648 Cromwell's brilliant victory over the Duke of Hamilton and in 
+                1715, the defeat of the Jacobites. 
+                Preston escaped serious bomb damage during the Second World War and nobody was killed. However, in 1944 61 people were killed when a plane crashed in 
+                Freckleton.
+            </p>
+        </section>
+        <br>
+        <section id="trade">
+            <img src="assets/img/preston-shiping-docks.jpg" alt="" id="preston-docks">
+            <h3>Trade And Industry</h3>
+            <br>
+            <p class="para-text">
+                In the 18th century, Preston continued to trade with Europe. Hemp, timber, and iron were imported from the Baltic region. Preston also traded with the 
+                West Indies. Some ships from Preston took part in the slave trade. 
+                For centuries wool and linen were woven in Preston. However, by the late 18th century they had given way to cotton. The first cotton mill in Preston opened 
+                in 1771. Some cotton was made in mills but there were also handloom weavers, who made cotton cloth in their own homes.
+                The first cotton mill in Preston opened in 1771. Some cotton was made in mills but there were also handloom weavers, who made cotton cloth in their own 
+                homes. By 1835 there were 40 cotton mills. 
+                By the time of the first census in 1801, Preston had a population of 11,887. By the standards of the time, it was a large town. Moreover, Preston grew rapidly 
+                during the 19th century. By 1851 Preston had a population of 69,361. This was despite epidemics of cholera in 1832 and 1848.
+                There was industrial unrest in the early 19th century with demonstrations in 1808 and 1818 and a strike in 1836. In 
+                1853-54 the employers locked out the employees.
+                Albert Edward Dock was built in 1892. As well as exports and imports to other countries there was considerable coastal trade in the 19th century. 
+                The Leyland Steam Wagon Company was formed in 1896. In 1904 they began making petrol-driven vehicles. The name of the company was changed to Leyland Motors 
+                in 1907. After 1918 the cotton industry, which had dominated the town for so long, collapsed. There was very high unemployment.
+                In 1918 aircraft manufacture began in Preston. Courtaulds rayon factory opened in 1939. 
+                In the late 1970s as firms such as British Leyland began making people redundant. Furthermore, the Courtaulds factory closed in 1979 with 
+                the loss of nearly 3,000 jobs. It was a severe blow to the local economy. Mass unemployment returned. The only bright spot in the gloom was the expansion 
+                of service industries like tourism.
+            </p>
+            <img src="assets/img/preston-factory.jpg" alt="" id="preston-factory">
+        </section>
+            <br>
+        <section id="unsanitary">
+            <h3>Unsanitary Preston</h3>
+            <br>
+            <p class="para-text">
+                In 19th century, Preston was dirty and unsanitary. The situation improved a little in the late 19th century with the building of sewers 
+                but even in the early 20th century many of the townspeople used earth closets (basically a bucket that was emptied at night into a cart by the &apos;night soil 
+                men&apos;).
+                During the 19th century, there were some improvements in the amenities.
+                In 1809 a dispensary where the poor could obtain free medicines opened. 
+            </p>
+        </section>
+            <br>
+        <section id="social">
+            <h3>Social</h3>
+            <br>
+            <p class="para-text">
+                From 1699 the streets of Preston were lit by oil lamps. 
+                From 1800 Preston had night watchmen that patrolled the streets at night. The first modern police force in the town was formed in 1836. The Royal Infirmary opened in 1870. 
+                The first museum in  Preston opened in 1841. Then in 1855, a cemetery was opened. Also in 1855 St Johns Church was built. A new Town Hall was built in 
+                Preston in 1867. Also in 1867, a cattle market was built in the town.
+                Miller Park was laid out in 1864. Moor Park opened in 1867. From 1879 horse-drawn trams ran in Preston. Also in 1879, a free library opened in the town 
+                hall. The first telephone exchange in Preston opened in 1881. In 1893 the Harris Museum and Art Gallery opened. A training school for deaf and dumb 
+                children opened in 1894 and Victoria Jubilee Technical School opened in 1897.
+                The 20th Century was a period of economic and social diversification as Preston responded to regional, national and global changes.
 
-				<div class="image-with-text">
-					<div class="item-text" id="holiday-park">
-						<h3><a href="https://www.visitlancashire.com/places-to-stay/hall-more-holiday-park-p685850" target="_blank">Hall More Holiday Park</a></h3>
-						<p>
-							Situated in a typical farm setting among 10 acres of meadow and woodland at the heart of the Arnside and Silverdale Area of Outstanding Natural Beauty Hall More is renowned for the variety of walks and wildlife
-						</p>
-					</div>
-					<div class="item-img">
-						<img src="images/holiday-park2.jpg" alt="Hall More Holiday Park">
-					</div>
-				</div>				
-			</div>
-			<div class="attractions">
-				<div class="image-with-text">
-					<div class="item-text" id="museum-gallery">
-						<h3><a href="https://www.visitlancashire.com/things-to-do/harris-museum-art-gallery-and-library-p1771" target="_blank">Harris Museum</a></h3>
-						<p>
-							Known affectionately as The Harris, this attraction is loved for its beautiful spaces, fun experiences and intriguing stories. Stories that shine a light on the people who have settled, lived and worked in Lancashire and Preston, locally and from around the world
-						</p>
-					</div>
-					<div class="item-img">
-						<img src="images/museum-gallery2.jpg" alt="Harris Museum, Art Gallery, Library">
-					</div>
-				</div>
-				<div class="image-with-text">
-					<div class="item-text" id="cuerden-valley-park">
-						<h3><a href="https://www.tripadvisor.co.uk/Attraction_Review-g187062-d4012360-Reviews-Cuerden_Valley_Park-Preston_Lancashire_England.html" target="_blank">Cuerden Valley Park</a></h3>
-						<p>
-							650 acres of green oasis to discover and relax in, with the River Lostock meandering through this working estate with a hugely diverse range of land uses, including remote upland hill farms,booming urban cities,picture postcard villages
-						</p>
-					</div>
-					<div class="item-img">
-						<img src="images/cuerden-valley-park2.jpg" alt="Cuerden Valley Park">
-					</div>
-				</div>
-				<div class="image-with-text">
-					<div class="item-text" id="river-ribble">
-						<h3><a href="https://www.tripadvisor.co.uk/Attraction_Review-g187062-d10264993-Reviews-The_River_Ribble-Preston_Lancashire_England.html" target="_blank">The River Ribble</a></h3>
-						<p>
-							One of the longest, most diverse rivers in the UK, is a stunning river playing an important role in this amazing area. A mighty 75-mile-long river, starts life as a gentle flow at Gayle Beck rising close to Ribblehead Viaduct, in the Yorkshire Dales National Park
-						</p>
-					</div>
-					<div class="item-img">
-						<img src="images/the-river-ribble2.jpg" alt="The River Ribble">
-					</div>
-				</div>				
-			</div>	
-			<div class="attractions">
-				<div class="image-with-text">
-					<div class="item-text" id="the-flower-bowl-entertainment-centre">
-						<h3><a href="https://theflowerbowl.uk/" target="_blank">The Flower Bowl</a></h3>
-						<p>
-							Lancashire's newest and most unusual leisure venue, offering Curling Rink, also bowling, golf simulator, crazy golf, crazy pool, a 3 screen premium cinema, four great places to eat and drink throughout the year
-						</p>
-					</div>
-					<div class="item-img">
-						<img src="images/the-flower-bowl2.jpg" alt="The Flower Bowl Entertainment Centre">
-					</div>
-				</div>
-				<div class="image-with-text">
-					<div class="item-text" id="the-guild">
-						<h3><a href="https://www.greeneking.co.uk/pubs/lancashire/guild" target="_blank">The Guild</a></h3>
-						<p>
-							The Guild, a welcoming Grade 2 historic pub with heaps of local history and character. Relax in our Beer Garden complete with TV screens, outdoor play area for children. Play pool, darts or join karaoke nights for hours of fun
-						</p>
-					</div>
-					<div class="item-img">
-						<img src="images/the-guild2.jpg" alt="The Guild">
-					</div>
-				</div>	
-				<div class="image-with-text">
-					<div class="item-text" id="the-Lonely-People">
-						<h3><a href="https://www.visitpreston.com/article/3944/Lonely-People" target="_blank">The Lonely People Bar</a></h3>
-						<p>
-							Located in Preston city centre, with a boutique interior and experimental cocktailsis, is the perfect place for some evening drinks, a unique atmosphere for special occasions, catching up, or a date night with a touch of class
-						</p>
-					</div>
-					<div class="item-img">
-						<img src="images/lonely-people-bar2.jpg" alt="The Lonely People Bar">
-					</div>
-				</div>				
-			</div>			
-		</div>		
-	</section>
-
-	<footer>
-	
-		<ul class="social-networks">
-			<li>
-				<a href="https://www.facebook.com" target="_blank">Facebook
-					<i class="fab fa-facebook-square"></i>
-				</a>
-			</li>
-			<li>
-				<a href="https://www.twitter.com" target="_blank">Twitter
-				<i class="fab fa-twitter-square"></i> 
-				</a>
-			</li>
-			<li>
-				<a href="https://www.instagram.com" target="_blank">Instagram
-					<i class="fab fa-instagram"></i>  
-				</a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com" target="_blank">Youtube
-					<i class="fab fa-youtube-square"></i> 
-				</a>
-			</li>
-		</ul>
-
-	</footer>
+                A Cenotaph was built in Preston in 1926.
+                In the 1950s immigrants from India, Pakistan, and the West Indies came to Preston.
+                In the 1950s and 1960s, there was a great deal of slum clearance in  Preston and many new council houses were built. The Larches estate was built at Ashton.
+                Other estates were built at Middleforth Green, Brookfield, and Penwortham. From the mid-1970s, the council’s policy changed from tearing down old houses to 
+                giving grants to the inhabitants to improve them.
+                The Preston Bypass was built in 1958. The St Georges Shopping Centre was built in 1964. 
+                As old factories and terraces were demolished, new modernist buildings such as Preston bus station (1969) and the Guild Hall (1972), were constructed. 
+                Manufacturing declined in importance and its place was taken by service industries. Today the University of Central Lancashire, which can trace its history back to a Sunday school founded in the 1830s, is an expanding influence on the fabric of modern Preston.
+                The Fishergate Centre opened in 1986.
+                The ring road was built in the early 1970s. A bus station and a Guildhall were also built in Preston then. In 1999 Preston Guildhall was refurbished using 
+                a National Lottery grant.
+                In 2002, Preston was made a city.
+            </p>
+            <img src="assets/img/preston-fishergate.jpg" alt="" id="fishergate">
+        </section>
+        <br>
+<!-- a number of general interest items have been provided as asides -->            
+        <section id="aside-section">
+			<h4>Some Interesting Facts</h4>
+			<br>
+            <aside>
+                <h4 id="pedders">The Pedders of Preston</h4>
+                <br>
+                <p class="para-text">
+                Over the course of two hundred years the Pedder family of Preston rose to prominence in the town, founding its first bank and entering the ranks of the 
+                gentry. The main branch of the family faced ruin when the bank collapsed in 1861, but fortunes were salvaged and the family entered the 20th century with 
+                their privileges intact.
+                </p>
+            </aside>
+            <br>
+            <aside>
+                <h4 id="jewish-history">Preston's Jewish history</h4>
+                <br>
+                <p class="para-text">
+                An out of print book by John Cowell, a retired librarian, provides a fascinating history of Preston&apos;s Jewish community from the first appearance of Jews in 
+                the town&apos;s records at the beginning of the nineteenth century until the closure of their Avenham synagogue at the end of the last century. The book is 
+                titled Furriers, Glaziers, Doctors and Others a history of the Preston Jewish community .It has been digitised and has now been added to the Preston 
+                History Library
+                </p>
+            </aside>
+            <br>
+            <aside>
+                <h4 id="science-connection">Climate science pioneer's Preston connections</h4>
+                <br>
+                <p class="para-text">
+                The Victorian scientist John Tyndall was one of the pioneers of climate science. He had a long and distinguished career as one of Britain&apos;s leading 
+                scientists. He was also a poet and a mountaineer, he completed the first solo ascent of the second-highest peak in the Alps carrying only a ham sandwich 
+                and a small bottle of tea. Early stimulus for his scientific studies was provided by his attendance at lectures at the Institution for the Diffusion of 
+                Knowledge in Cannon Street, Preston, while he was living in the town.
+                </p>
+            </aside>
+            <br>
+            <aside>
+                <h4 id="city-shield">City Shield</h4>
+                <br>
+                <p class="para-text">
+                The lamb on the city shield is a biblical image of Jesus Christ, and the same image that represented 7th-century bishop St Wilfrid, the city's patron saint 
+                who is historically linked to the city's establishment. The "PP" on the city shield stands for "Princeps Pacis" (Prince of Peace), another title for Christ 
+                invoking Him as protector of the city, though it is also often taken to stand for the city's nickname "Proud Preston". In fact, there were originally three 
+                letters "P" on the coat of arms, with one being lost over time.
+                </p>
+            </aside>
+            <br>
+            <aside>
+                <h4 id="defense-link">Defence Links</h4>
+                <br>
+                <p class="para-text">
+                Preston is a major centre of the British defence aerospace industry with BAE Systems, the UK's principal military aircraft design, development and manufacture 
+                supplier, having its Military Aircraft headquarters located in nearby Warton. The company has two of its major facilities located some miles on either side of 
+                the city. BAE Warton is located to the western side of the city whilst BAE Samlesbury is located to the east, over the M6 motorway. BAE Systems also operate 
+                large office facilities at the Portway area within the city and at The Strand office complex.
+                </p>
+            </aside>
+            <br>
+            <aside>
+                <h4 id="lewis-carroll">Lewis Carroll&apos;s Preston family connections</h4>
+                <br>
+                <p class="aside-text">
+                The author of Alice In Wonderland had a number of connections with prominent families in Preston. Tracing those connections brings out the intricate, intertwining network of 
+                family and friendship links that underpinned a social structure that, through land ownership, shaped the development of the town from the 18th century onwards.
+                </p>
+            </aside>
+        </section>
+        <br>
+    </article>
+<!-- footer bar is configures such that it includes popular social media links -->      
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
 </body>
-
 </html>
