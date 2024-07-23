@@ -4,10 +4,10 @@ Provide a brief history of the city of Preston, and some of its attractions
 
 # Technologies/Features used
 
-HTML
-CSS
-Flexbox
-Mediaquery
+HTML,
+CSS,
+Flexbox,
+Mediaquery,
 Fontawsome
 
 # Installation
@@ -16,7 +16,8 @@ Clone the project, ensuring the folder structure is replicated.  Once one page i
 
 # Test
 
-Each page was loaded in a browser and provided links, as well as pseudo features, were tested to ensure functionality. 
+Each page was loaded in a browser and the provided links, as well as the pseudo features, were tested to ensure functionality. 
+Pages and CSS were, also, validated using W3C validator.
 Zooming feature applied to images on the home and gallery pages is in effect on the first load of the page, as well as subsequent refreshes.
 
 # Original Idea
@@ -33,9 +34,9 @@ At the top of the page is the image of Cromwell's brilliant victory over the Duk
 
 ## Gallery Page
 
-This page contains some of the attractions that can be found in and around the city that might be of interest to locals and outsiders alike.
-At the top of the page is an image of the Ribble river running through the city and acting as the city's artery through the history.
-Each attraction is presented by name, an image, and a brief description.  The name of each attration act as a link to the web page providing more information on what is on offer. 
+This page contains some of the attractions that can be found in and around the city that might be of interest to locals, and outsiders alike.
+At the top of the page is an image of the Ribble river running through the city and acting as the city's artery through the history; facilitating commerce, transportation, and social interaction with neighbouring towns/cities.
+Each attraction is presented by name, an image, and a brief description.  The name of each attration act as a link to a web page providing more information on what is on offer. 
 Certain effects have been incorporated as the mouse hovers over the name, description, and image of each attraction.
 
 ## Contact Page
