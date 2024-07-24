@@ -17,7 +17,7 @@ Clone the project, ensuring the folder structure is replicated.  Once one page i
 # Test
 
 Each page was loaded in a browser and the provided links, as well as the pseudo features, were tested to ensure functionality. 
-Pages and CSS were, also, validated using W3C validator.
+Pages and CSS were validated using W3C validator.
 Zooming feature applied to images on the home and gallery pages is in effect on the first load of the page, as well as subsequent refreshes.
 
 # Original Idea
