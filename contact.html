@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css">    
     <title>Contact</title>
 </head>
@@ -25,7 +25,7 @@
 <!-- input form is created by using div items in conjunction with flexbox enabling them to be stacked -->    
 <!-- also a background image, with transparency effect, is deployed -->
     <div class="contact-bg-image">
-        <form id="user-form" method="get">
+        <form id="user-form" method="get" action="#modal">
             <div class="user-input">
                 <label for="fname">First Name</label>
                 <input type="text" name="firstname" id="fname" required>
@@ -42,10 +42,20 @@
                 <label for="msg">Message</label>
                 <textarea id="msg" name="message" rows="10"></textarea>
             </div>
-			<button type="submit" onclilck="href='#openmodal'">Submit</button>
-           <button type="reset">Reset</button>  
+			<button type="submit">Submit</button>
+            <button type="reset">Reset</button>  
         </form>
-    </div>
+		<div id="modal">
+			<div class="modal-window">
+				<a class="modal-close" href="#"><span id="close-modal-box">Close</span></a>
+				<div id="modal-message">
+					<h2>Thank you!</h2>
+					<p>Your comments and feedbacks are much appreciated and enable us to improve our services</p>
+					<p>Look forward to being able to serve you again soon</p>
+				</div>
+			</div>
+		</div>
+	</div>
 <!-- footer bar is configures such that it includes popular social media links -->      
     <footer>
         <ul class="social-networks">
