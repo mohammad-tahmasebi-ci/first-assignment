@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css">
     <title>Preston Attractions Gallery</title>
 </head>
@@ -23,9 +23,12 @@
         </nav>
     </header>
 <!-- iamge to be placed at the top of the home page -->     
-<!-- the image has a zooming out effect on each load/refresh -->     
-	<img src="assets/img/river-ribble-rochester-lancashire.jpg" class="gallery-page-image" alt="river ribble">
+<!-- the image has a zooming out effect on each load/refresh --> 
+	<div id="gallery-page-image-container">
+		<img src="assets/img/river-ribble-rochester-lancashire.jpg" class="gallery-page-image" alt="river ribble">
+	</div>
 <!-- div elements are used, in conjunction with flexbox, to aid in laying out items -->
+	<div id="container">
     <div class="attractions">  
         <div class="image-with-text">
             <h3><a href="https://www.visitlancashire.com/things-to-do/ribble-steam-railway-and-museum-p20641" target="_blank">Ribble Steam Railway</a></h3>
@@ -40,23 +43,24 @@
             <p class="para-text">
                 Lancashire Wildlife Trust nature reserve has the wide variety of wildlife on offer.  Walk along the River Ribble, explore the ancient woodland, amble around the lakes, spot a huge array of wildlife all year round 
             </p>
-        </div>	
+        </div>		
         <div class="image-with-text">
-            <h3><a href="https://www.visitlancashire.com/things-to-do/avenham-and-miller-parks-p19100" target="_blank">Avenham and Miller Parks</a></h3>
+            <h3><a href="https://www.visitlancashire.com/things-to-do/avenham-and-miller-parks-p19100" target="_blank">Avenham, Miller Parks</a></h3>
             <img src="assets/img/avenham-park.jpg" alt="Avenham Park">
             <p class="para-text">
                 Avenham Park is a Grade II listed public park. With a backcloth of the River Ribble, Avenham Park ranks amongst the finest examples of traditional Victorian parkland. Designed and created by Edward Milner during the 1860s
             </p>
-        </div>			
-    </div>
-    <div class="attractions">
+        </div>	
+	</div>
+    <div class="attractions"> 			
         <div class="image-with-text">
-            <h3><a href="https://www.visitlancashire.com/things-to-do/level-preston-p986230" target="_blank">Level Preston</a></h3>
+            <h3><a href="https://www.visitlancashire.com/things-to-do/level-preston-p986230" target="_blank">Level Preston Complex</a></h3>
             <img src="assets/img/level-preston.jpg" alt="Level Preston">
             <p class="para-text">
                 Level is the largest entertainment complex in the city, with ten pin bowling, laser tag and crazy golf, assault course and private karaoke rooms making it a great destination for a family day out or just a night out with your mates
             </p>
         </div>
+
         <div class="image-with-text">
             <h3><a href="https://www.visitlancashire.com/places-to-stay/hall-more-holiday-park-p685850" target="_blank">Hall More Holiday Park</a></h3>
             <img src="assets/img/holiday-park.jpg" alt="Hall More Holiday Park">
@@ -97,5 +101,6 @@
             </li>
         </ul>
     </footer>
+	</div>
 </body>
 </html>
