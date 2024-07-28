@@ -4,7 +4,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-  /*  border:1px solid red;  */
+  /*  border:1px solid red;   for troubleshooting set this property */
   }
   
   html {
@@ -33,7 +33,6 @@
       min-height: 50px;
       flex-wrap: wrap;
       background: lightgray;
-      position: sticky;
       top: 0;
       margin-bottom: 25px;
   }
@@ -68,8 +67,16 @@
   /* styling home page image and the corresponding zoom effect */
   /* set height to auto to allow for resizing */
   
+  #homepage-image-container {
+      border: 0;
+      position: relative;
+      max-width: 70vw;
+      margin-left: 25%;
+      margin-top: 30px;
+  }
+      
   .home-page-image {
-      width: 100%;
+      width: 70%;
       height: auto;
       margin-top: -15px;
       margin-bottom: 10px;
@@ -83,7 +90,7 @@
           transform: scale(1);
       }
       to {
-          transform: scale(0.99);
+          transform: scale(1.05);
       }
   }
   
@@ -94,6 +101,11 @@
   }
   
   /* styling history items, asides on the home page */
+  
+  .container {
+      max-width: 90vw;
+      margin-left: 5%;
+  }
   
   article h3 {
       margin-left: 10px;
@@ -198,9 +210,17 @@
   /* configure gallery page's top image and the corresponding zoom effect */
   /* set height to auto to allow for resizing */
   
+  #gallery-page-image-container {
+      border: 0;
+      position: relative;
+      max-width: 65vw;
+      margin-left: 14%;
+      margin-bottom: 10px;
+  }
+  
   .gallery-page-image {
-      width: 100%;
-      height: auto;
+      width: 70vw;
+      height: 30vw;
       margin-top: -20px;
       animation-name: gallery-page-zoom;
       animation-duration: 5s;
@@ -223,15 +243,15 @@
   
   .attractions {
       display: flex;
-      max-width: 100%;
+      max-width: 95%;
       padding-top: 5px;
-      margin: 5px;
+      margin-left: 30px;
   }
   
   /* allowing the flexbox item to grow & shrink */
   
   .image-with-text {
-      flex: 1 1; 
+      flex: 1 0; 
       margin: 10px;
   }
   
@@ -285,9 +305,10 @@
       align-items: center;
       width: 100%;
       height: 80vh;
-      background-image: linear-gradient(rgba(0,0,0,0.4), lightgrey), url(img/preston-corn-exchange.jpg);
+      background-image: linear-gradient(rgba(0,0,0,0.5), lightgrey), url("../img/preston-corn-exchange.jpg");
       background-position: center;
       background-size: cover;
+      background-repeat: no-repeat;
   }
   
   /* end of background image configuration for the contact page */
@@ -353,6 +374,52 @@
       background-color: powderblue;
   }
   
+  /* configure the modal popup box */
+  #modal {
+      position: fixed;
+      top: 0;
+      left: 25%;
+      height: 100%;
+      width: 100%;
+      background-color: rbga(0,0,0,0.5);
+      display: flex;
+      jsutify-content: center;
+      align-items: center;
+  }
+  
+  .modal-window {
+      position: relative;
+      background-color: white;
+      padding: 4px 2px;
+  }
+  
+  .modal-close {
+      position: absolute;
+      top: -30px;
+      right: 0;
+  }
+  
+  #modal:not(:target) {
+      visibility: hidden;
+      opacity: 0;
+  }
+  
+  #close-modal-box {
+      color: blue;
+  }
+  
+  #modal-message {
+      display: flex;
+      width: 500px;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      align-contact: center;
+      background-color:lightgrey;
+      color: blueviolet;
+  }
+  
+  /* end of modal popup box configuration */
   /* end of form configuration */
   
   /* end of style entries for the contact page */
@@ -399,30 +466,47 @@
   
   /* end of footer styling */
   
-  /* declare media query for screens less than 768px */
+  /* declare media query for screens less than 490px */
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 496px) {
       
       /* reconfigure menu bar and footer for smaller screens */
   
       .navbar {
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
           flex-wrap: wrap;
       }
       
       .menu {
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
+      }
+      
+      .menu a:hover {
+          pointer-events: none;
       }
   
+      .home-page-image {
+          display: none;
+      }
+      
+      .gallery-page-image {
+          display: none;
+      }	
+      
       .attractions {
+          display: flex;
           flex-wrap: wrap;
+      }
+      
+      .image-with-text {
+          flex: 1 0 50%;
       }
   
       .social-networks {
           display: flex;
-          justify-content: center;
+          justify-content: center;	
       }
   
       .social-networks li {
@@ -452,6 +536,41 @@
       #fishergate {
           max-width: 50%;
       }
+  
+  
+  @media screen and (max-width: 350px) {
+      
+      /* reconfigure menu bar and footer for smaller screens */
+  
+      .navbar {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+      }
+      
+      .menu {
+          display: flex;
+          flex-direction: row;
+      }
+  
+  }
+  
+  @media screen and (max-width: 268px) {
+      
+      /* reconfigure menu bar and footer for smaller screens */
+  
+      .navbar {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+      }
+      
+      .menu {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+      }
+  }
   
       /* end of resizing home page images for smaller screens */
   
