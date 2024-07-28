@@ -29,6 +29,10 @@ Below is a brief description of each page.
 
 ![contact-page.bmpr](https://github.com/mohammad-tahmasebi-ci/first-assignment/assets/readme/contact-page.bmpr)
 
+<p align="center">
+  <img src="assets/readme/contact-page.bmpr" alt="accessibility text">
+</p>
+
 ## Home Page
 
 This page contains a brief history of the city and some important dates/events occuring in/around it.
