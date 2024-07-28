@@ -27,7 +27,7 @@ The assignment contains three web pages, Home, Gallery, Contact.  A menu bar act
 The code structure allows for responsiveness.
 Below is a brief description of each page.
 
-![contact-page.bmpr](assets/readme)
+![contact-page.bmpr](https://github.com/mohammad-tahmasebi-ci/first-assignment/assets/readme/contact-page.bmpr)
 
 ## Home Page
 
