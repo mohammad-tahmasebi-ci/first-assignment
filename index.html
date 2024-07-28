@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css">
     <title>Preston History</title>
 </head>
 <body>
 <!-- define content to be included in the header, i.e. logo, menu bar -->    
-    <header class="header-container">
         <nav class="navbar">
             <div class="logo">
                 <h2>Historic City Of Preston</h2>
@@ -23,10 +22,13 @@
         </nav>
     </header>
 <!-- iamge to be placed at the top of the home page -->    
-<!-- the image has a zooming out effect on each load/refresh -->     
-	<img src="assets/img/preston-1648.jpg" class="home-page-image" alt="preston-1648">
+<!-- the image has a zooming out effect on each load/refresh --> 
+	<div id="homepage-image-container">
+		<img src="assets/img/preston-1648.jpg" class="home-page-image" alt="preston-1648">
+	</div>
     <br>
-<!-- define an article to contain different historical, and some general interest, items  -->      
+<!-- define an article to contain different historical, and some general interest, items  -->    
+	<div class="container">
     <article id="preston-history">
 		<h3>Brief History Of Preston</h3>
 		<br>
@@ -198,7 +200,7 @@
             <aside>
                 <h4 id="lewis-carroll">Lewis Carroll&apos;s Preston family connections</h4>
                 <br>
-                <p class="aside-text">
+                <p class="para-text">
                 The author of Alice In Wonderland had a number of connections with prominent families in Preston. Tracing those connections brings out the intricate, intertwining network of 
                 family and friendship links that underpinned a social structure that, through land ownership, shaped the development of the town from the 18th century onwards.
                 </p>
@@ -231,5 +233,6 @@
             </li>
         </ul>
     </footer>
+	</div>
 </body>
 </html>
