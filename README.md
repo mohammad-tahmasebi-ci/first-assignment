@@ -30,7 +30,7 @@ Below is a brief description of each page.
 ![contact-page.bmpr](https://github.com/mohammad-tahmasebi-ci/first-assignment/assets/readme/contact-page.bmpr)
 
 <p align="center">
-  <img src="assets/readme/contact-page.bmpr" alt="accessibility text">
+  <img src="assets/readme/contact-page.png" alt="accessibility text">
 </p>
 
 ## Home Page
