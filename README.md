@@ -28,7 +28,7 @@ The code structure allows for responsiveness.
 Below is a brief description of each page.
 
 <p align="center">
-  <img src="assets/readme/contact-pagewireframe.png" alt="accessibility text">
+  <img src="assets/readme/contact-page-wireframe.png" alt="accessibility text">
 </p>
 
 ## Home Page
