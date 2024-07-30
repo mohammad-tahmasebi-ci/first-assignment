@@ -316,12 +316,13 @@
   /* configure the form, labels, entry boxes, buttons */
   
   form {
-      width: 90%;
-      max-width: 500px;
+      width: 75%;
+      max-width: 350px;
+      max-heigh: 250px;
   }
   
   .user-input {
-      margin-bottom: 30px;
+      margin-bottom: 10px;
       position: relative;
   }
   
@@ -378,7 +379,7 @@
   #modal {
       position: fixed;
       top: 0;
-      left: 25%;
+      left: 5%;
       height: 100%;
       width: 100%;
       background-color: rgba(0,0,0,0.5);
@@ -390,7 +391,7 @@
   .modal-window {
       position: relative;
       background-color: white;
-      padding: 4px 2px;
+      left: 0;
   }
   
   .modal-close {
@@ -410,11 +411,11 @@
   
   #modal-message {
       display: flex;
-      width: 500px;
+      width: 300px;
       text-align: center;
       flex-direction: column;
-      justify-content: center;
-      align-content: center;
+      justify-content: flex-start;
+      align-content: left;
       background-color:lightgrey;
       color: blueviolet;
   }

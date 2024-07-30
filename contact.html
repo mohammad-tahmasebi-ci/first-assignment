@@ -27,20 +27,20 @@
     <div class="contact-bg-image">
         <form id="user-form" method="get" action="#modal">
             <div class="user-input">
-                <label for="fname">First Name</label>
-                <input type="text" name="firstname" id="fname" required>
+<!--                <label for="fname">First Name</label>  disabled due to incompatibility on some devices -->
+                <input type="text" name="firstname" id="fname" value="First Name" onfocus="this.value=''" required>
             </div>
             <div class="user-input">
-                <label for="lname">Last Name</label>
-                <input type="text" name="lastname" id="lname" required>
+<!--                 <label for="lname">Last Name</label>  disabled due to incompatibility on some devices -->
+                <input type="text" name="lastname" id="lname" value="Last Name" onfocus="this.value=''" required>
             </div>
             <div class="user-input">
-                <label for="email">Email Address</label>
-                <input type="email" name="email" id="email" required>
+<!--                <label for="email">Email Address</label>  disabled due to incompatibility on some devices -->
+                <input type="email" name="email" id="email" value="Email Adderess" onfocus="this.value=''" required>
             </div>
             <div class="user-input">
-                <label for="msg">Message</label>
-                <textarea id="msg" name="message" rows="10"></textarea>
+               <label for="msg">Message</label>  
+               <<textarea id="msg" name="message" rows="10"></textarea>
             </div>
 			<button type="submit">Submit</button>
             <button type="reset">Reset</button>  
