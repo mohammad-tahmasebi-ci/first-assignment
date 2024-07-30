@@ -333,7 +333,7 @@
       color: white;
       background: transparent;
       font-family: 'Times New Roman', Times, serif;
-      font-size: 12px;
+      font-size: 18px;
   }
   
   label {
@@ -357,16 +357,16 @@
   input:hover, input:focus {
       background-color: lightgrey;
       opacity: 0.4;
-      color: darkred;
-      font-size: 16px;
+      color: blue;
+      font-size: 18px;
       font-weight: bold;
   }
   
   textarea:hover, textarea:focus {
       background-color: lightgrey;
       opacity: 0.4;
-      color: darkred;
-      font-size: 16px;
+      color: blue;
+      font-size: 18px;
       font-weight: bold;
   }
   
@@ -381,9 +381,9 @@
       left: 25%;
       height: 100%;
       width: 100%;
-      background-color: rbga(0,0,0,0.5);
+      background-color: rgba(0,0,0,0.5);
       display: flex;
-      jsutify-content: center;
+      justify-content: center;
       align-items: center;
   }
   
@@ -405,7 +405,7 @@
   }
   
   #close-modal-box {
-      color: blue;
+      color: white;
   }
   
   #modal-message {
@@ -414,7 +414,7 @@
       text-align: center;
       flex-direction: column;
       justify-content: center;
-      align-contact: center;
+      align-content: center;
       background-color:lightgrey;
       color: blueviolet;
   }
@@ -466,7 +466,7 @@
   
   /* end of footer styling */
   
-  /* declare media query for screens less than 490px */
+  /* declare media query for screens less than 496px */
   
   @media screen and (max-width: 496px) {
       
@@ -483,9 +483,9 @@
           flex-direction: row;
       }
       
-      .menu a:hover {
+  /*	.menu a:hover {
           pointer-events: none;
-      }
+      }  disabled due to incompatibility with some devices */
   
       .home-page-image {
           display: none;
