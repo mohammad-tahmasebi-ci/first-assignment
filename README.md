@@ -20,6 +20,8 @@ The site has been created by utilising HTML and CSS.
         * Current Features
         * Future Enhancements
 
+* [User Stories](#user-stories)
+
 * [Testing](#testing)
 
     * HTML Validation
